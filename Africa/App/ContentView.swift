@@ -18,7 +18,13 @@ struct ContentView: View {
             List {
                 CoverImageView()
                 ForEach(animals) {
-                    animal in AnimalListView(animal: animal)
+                    animal in
+                    NavigationLink(
+                        destination: AnimalDetailView(animal: animal)
+                    ) {
+                        AnimalListView(animal: animal)
+                    }
+                    
                 }
             }
             .navigationTitle("Africa")
