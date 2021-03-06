@@ -42,6 +42,36 @@ struct AnimalDetailView: View {
                     HeadingView(HeadingText: "Wilderness in pictures", HeadingImage: "photo.on.rectangle.angled")
                     InsertGalleryView(animal: animal)
                 }
+                .padding(.horizontal)
+                
+                //Facts
+                Group() {
+                    HeadingView(HeadingText: "Did you know?",
+                                HeadingImage: "questionmark.circle")
+                    InsertFactView(animal: animal)
+                }
+                .padding(.horizontal)
+                
+                //Description
+                Group() {
+                    HeadingView(HeadingText: "All about \(animal.name)",
+                                HeadingImage: "info.circle")
+                    Text(animal.description)
+                        .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
+                
+                // Map
+                
+                Group() {
+                    HeadingView(HeadingText: "Map",
+                                HeadingImage: "map")
+                }
+                .padding(.horizontal)
+                
+                
+                
                 
             }//:VStack
             .navigationBarTitle(

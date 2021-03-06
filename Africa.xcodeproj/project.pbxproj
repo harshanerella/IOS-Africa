@@ -23,6 +23,7 @@
 		92BAA3B625F36A27009332D4 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAA3B525F36A27009332D4 /* AnimalDetailView.swift */; };
 		92BAA3B925F387CF009332D4 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAA3B825F387CF009332D4 /* HeadingView.swift */; };
 		92BAA3BC25F38A30009332D4 /* InsertGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAA3BB25F38A30009332D4 /* InsertGalleryView.swift */; };
+		92BAA3BF25F39449009332D4 /* InsertFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BAA3BE25F39449009332D4 /* InsertFactView.swift */; };
 		92C5A47F25ED5AAF00F6B95E /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 92C5A47525ED5AAD00F6B95E /* zebra.mp4 */; };
 		92C5A48025ED5AAF00F6B95E /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 92C5A47625ED5AAD00F6B95E /* elephant.mp4 */; };
 		92C5A48125ED5AAF00F6B95E /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 92C5A47725ED5AAD00F6B95E /* hippo.mp4 */; };
@@ -58,6 +59,7 @@
 		92BAA3B525F36A27009332D4 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		92BAA3B825F387CF009332D4 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		92BAA3BB25F38A30009332D4 /* InsertGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertGalleryView.swift; sourceTree = "<group>"; };
+		92BAA3BE25F39449009332D4 /* InsertFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertFactView.swift; sourceTree = "<group>"; };
 		92C5A47525ED5AAD00F6B95E /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
 		92C5A47625ED5AAD00F6B95E /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
 		92C5A47725ED5AAD00F6B95E /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				92BAA3B525F36A27009332D4 /* AnimalDetailView.swift */,
 				92BAA3B825F387CF009332D4 /* HeadingView.swift */,
 				92BAA3BB25F38A30009332D4 /* InsertGalleryView.swift */,
+				92BAA3BE25F39449009332D4 /* InsertFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				92BAA3A925EFDA5E009332D4 /* CodableBundleExtension.swift in Sources */,
 				92BAA3BC25F38A30009332D4 /* InsertGalleryView.swift in Sources */,
 				92BAA3B925F387CF009332D4 /* HeadingView.swift in Sources */,
+				92BAA3BF25F39449009332D4 /* InsertFactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
